@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.tanko.com.tw)",
+      "WebSearch",
+      "Bash(git -C \"C:/Users/User/Downloads/tanko.claude\" status)",
+      "Bash(npx --version)",
+      "Bash(py --version)",
+      "Bash(mkdir -p assets/products)",
+      "Bash(curl -s -A \"Mozilla/5.0\" -o assets/products/_test.png \"https://www.tanko.com.tw/upload/catalog_products_list_pic/enL_catalog_products_23I12_bE2CnJjyS4.png\")",
+      "Bash(file assets/products/_test.png)",
+      "Bash(curl -s -o /dev/null -w \"ega.png: HTTP %{http_code}, %{size_download} bytes, %{time_total}s\\\\n\" \"http://localhost:8123/assets/products/ega.png\")",
+      "Bash(curl -s \"https://api.github.com/repos/anthropics/skills/contents/skills/frontend-design\" -H \"Accept: application/vnd.github+json\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md\")"
+    ]
+  }
+}
